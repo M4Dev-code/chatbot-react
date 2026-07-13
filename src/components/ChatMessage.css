@@ -1,0 +1,19 @@
+.chat-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.chat-message p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+.chat-message.user {
+  justify-content: flex-end;
+}
+.chat-message.robot {
+  justify-content: flex-start;
+}
